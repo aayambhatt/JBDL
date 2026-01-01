@@ -11,7 +11,7 @@ public class Pair<K,V>{
     private K first;
     private V second;
 
-    public Pair(int first, String second) {
+    public Pair(K first, V second) {
         this.first = first;
         this.second = second;
     }
@@ -24,7 +24,7 @@ public class Pair<K,V>{
         this.first = first;
     }
 
-    public String getValue() {
+    public V getValue() {
         return second;
     }
 
