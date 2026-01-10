@@ -15,9 +15,6 @@ public class NodeDemo {
         second.next = third;
         third.next = null;
 
-
-
-
         // traversing
         Node temp = head;
         while(temp!=null){
